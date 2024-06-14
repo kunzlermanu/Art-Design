@@ -1,0 +1,111 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo Global */
+body {
+    background-color: #1e1e1e; /* Cor de fundo escura */
+    color: #ffffff; /* Texto claro */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+header {
+    background-color: #333; /* Cor de fundo para o cabeçalho */
+    padding: 20px;
+}
+
+header h1 {
+    color: #ffffff; /* Texto branco para o título do cabeçalho */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Texto branco para links no cabeçalho */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+article {
+    background-color: #333; /* Cor de fundo para cada fofoca */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+article h3 {
+    color: #ffffff; /* Texto branco para os títulos das fofocas */
+}
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo Global */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background-color: #f0f0f0; /* Cor de fundo geral */
+    color: #333; /* Cor do texto */
+}
+
+header {
+    background-color: #333; /* Cor de fundo para o cabeçalho */
+    padding: 20px;
+    color: #ffffff; /* Cor do texto no cabeçalho */
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Cor dos links no cabeçalho */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
